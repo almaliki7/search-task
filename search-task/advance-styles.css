@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+}
+
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 2rem;
+    padding-left: 2rem;
+    padding-top: 10rem ;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+}
+
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    cursor: default;
+    color: black;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: black;
+    margin-left: 4rem;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: blue
+}
+
+.
+
+.search form .input-box .submit {
+    width: 100%;
+    padding: .8rem;
+    font-size: 1.6rem;
+    margin: .5rem 0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.input {
+    border: .1rem solid;
+}
+
+.form {
+    padding-top: 4rem;
+}
+
+
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.all {
+    font-size: 1.5rem;
+    max-width: fit-content;
+}
+
+.input-text1 {
+    margin-left: 6.5rem;
+}
+
+.input-text2 {
+    margin-left: .4rem;
+}
+
+.input-text3 {
+    margin-left: 4.3rem;
+}
+
+.input-text4 {
+    margin-left: 3.5rem;
+}
+
+.submit {
+    display: flex;
+    width: 12%;
+    padding: .8rem;
+    font-size: 1.6rem;
+    margin: .5rem 0;
+    margin-left: 50rem;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.advance {
+    color: red;
+    font-size: 3rem;
+}
+
+.find {
+    font-size: 2rem;
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+}
+
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: white ;
+}
+
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    cursor: default;
+    color: black;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: black;
+    margin-left: 4rem;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: blue
+}
+
+
+.search form {
+    max-width: 70rem;
+    margin: 9rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.search form .input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.search form .input-box .input {
+    width: 100%;
+    padding: .8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.6rem;
+    margin: .5rem 0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.search form .input-box .submit {
+    width: 100%;
+    padding: .8rem;
+    font-size: 1.6rem;
+    margin: .5rem ;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.input {
+    border: .1rem solid;
+}
+
+.input-box input {
+    max-width: fit-content;
+    
+}
+
+.submit {
+    cursor: pointer;
+}
+
+.input-box {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: transparent;
+    border-radius: 4rem;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
